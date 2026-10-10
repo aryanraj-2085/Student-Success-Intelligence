@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from typing import Any
-
+from backend.analytics import service
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
