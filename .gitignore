@@ -1,5 +1,4 @@
 # Student records and institution exports must be supplied locally.
-data/*.csv
 !data/synthetic-future-outcomes-demo.csv
 
 # Generated model binaries can be reproduced with the demo script.
