@@ -1,0 +1,29 @@
+# Student records and institution exports must be supplied locally.
+data/*.csv
+!data/synthetic-future-outcomes-demo.csv
+
+# Generated model binaries can be reproduced with the demo script.
+models/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

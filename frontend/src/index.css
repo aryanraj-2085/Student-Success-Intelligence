@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:wght@400;500;600;700&family=Exo+2:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Exo 2', 'DM Sans', sans-serif;
+  color: #182338;
+  background: #f4f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #182338;
+  --muted: #728096;
+  --line: #e1e7f0;
+  --paper: #fff;
+  --canvas: #f4f7fb;
+  --forest: #14243b;
+  --teal: #138a98;
+  --blue: #3976d2;
+  --amber: #e4a344;
+  --coral: #db6e78;
+  --mint: #43b7a5;
+  --serif: 'Orbitron', 'Exo 2', sans-serif;
+  --body-font: 'Exo 2', 'DM Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { @apply bg-slate-50 text-slate-800; margin: 0; min-width: 360px; min-height: 100vh; }
+button, input, select, textarea { font: inherit; }
+button { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #69c7cb; outline-offset: 2px; }
+::selection { background: #dcecff; }
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #e6edf7;
+  --muted: #a1aec1;
+  --line: #2c3a4d;
+  --paper: #182538;
+  --canvas: #101a29;
+  --forest: #101b2a;
+}
