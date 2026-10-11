@@ -1,5 +1,37 @@
 # Student Success AI
 
+## 🚀 Live Demo & Project Walkthrough
+
+<p align="center">
+  <a href="https://student-success-intelligence.onrender.com/">
+    <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-Open_Project-16a34a?style=for-the-badge" alt="Live Demo" />
+  </a>
+  <a href="https://www.youtube.com/watch?v=W1TQu3Yv4ww">
+    <img src="https://img.shields.io/badge/▶_WATCH_VIDEO-YouTube-red?style=for-the-badge" alt="Watch Demo Video" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=W1TQu3Yv4ww">
+    <img src="https://img.youtube.com/vi/W1TQu3Yv4ww/hqdefault.jpg" width="800" alt="Student Success Intelligence Demo Video" />
+  </a>
+</p>
+
+<p align="center">
+  <b>▶ Click the video thumbnail above to watch the complete project demonstration.</b>
+</p>
+
+---
+
+### 🌐 Try the Application
+
+Explore the live Student Success Intelligence platform to see student analytics, academic risk insights, student profiles, and faculty intervention features.
+
+**[🚀 Open Live Application](https://student-success-intelligence.onrender.com/)**
+
+**[🎬 Watch Project Walkthrough on YouTube](https://www.youtube.com/watch?v=W1TQu3Yv4ww)**
+
+---
 An explainable student-support analytics prototype using the cohort CSV in `data/`, a React/Vite interface, and a FastAPI/scikit-learn service. The prototype keeps identifiable names out of its API and UI and displays the supplied Student_ID as the profile key.
 
 ## Run locally
